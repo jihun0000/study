@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>김지훈의 개인 홈페이지</title>
+  <!-- 외부 CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Pretendard 웹폰트 불러오기 -->
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <!-- 1) 헤더 영역 -->
+    <header>
+      <img src="image.jpg" alt="Profile Photo" class="profile-photo">
+      <h1>안녕하세요, <span class="color-primary">김지훈</span>입니다!</h1>
+      <p class="italic slogan">
+        나만의 프로필 홈페이지 만들기<span class="color-accent">!!</span>
+      </p>
+    </header>
+
+    <!-- 2) 소개 섹션 -->
+    <section class="intro">
+      <h2 class="section-title">🙋 소개</h2>
+      <table class="intro-table">
+        <tr>
+          <th>이름</th>
+          <td class="color-primary">김지훈</td>
+        </tr>
+        <tr>
+          <th>학력</th>
+          <td>계명대학교 로봇공학과</td>
+        </tr>
+        <tr>
+          <th>취미</th>
+          <td class="italic color-accent">축구, 헬스, 수영, 프로그래밍</td>
+        </tr>
+        <tr>
+          <th>목표</th>
+          <td>자동차 엔지니어!</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- 3) 좋아하는 YouTube 영상 섹션 추가 -->
+    <section class="favorite-video">
+      <h2 class="section-title">🎬 내가 좋아하는 영상</h2>
+      <!-- 유튜브 임베드 iframe -->
+      <div class="video-wrapper">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/LpyJt9wHDBA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="video-caption italic">
+        (위 영상 제가 즐겨 드는 것 중 하나입니다.)
+      </p>
+    </section>
+
+    <!-- 4) 하단 검색엔진 아이콘 -->
+    <footer>
+      <p class="footer-text">
+        🔍 <span class="color-primary">자주 사용하는 검색엔진</span>
+      </p>
+      <div class="footer-icons">
+        <a href="https://www.naver.com" target="_blank">
+          <img src="naver.jpg" alt="Naver" class="icon">
+        </a>
+        <a href="https://www.google.com" target="_blank">
+          <img src="google.jpg" alt="Google" class="icon">
+        </a>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
